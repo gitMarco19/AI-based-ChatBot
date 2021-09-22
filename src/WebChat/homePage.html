@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src = "https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+		<link rel = "stylesheet" href = "style.css">
+		<style>
+			html, body {
+			  height: 100%;
+			  margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<iframe id = "#test" src=""></iframe>
+
+		<img id = "imgEVA" src = "immagini/eva.png" onclick = "openChat()">
+		<div id = "chatBox">
+			<div id = "close">
+				<img id = "logo" src = "immagini/logoEvaSmall.png">
+				
+				<svg id = "closeX" width = "40" height = "40" onclick = "closeChat()">
+					<line x1="12" y1="12" x2="27" y2="27"/>
+					<line x1="12" y1="27" x2="27" y2="12"/>
+				</svg>
+			</div>
+			<div id = "webchat"></div>
+		</div>
+		 <script type = "application/javascript" src = "script.js"></script>
+	</body>
+</html>
