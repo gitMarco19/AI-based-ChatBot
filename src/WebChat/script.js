@@ -107,7 +107,7 @@ document.getElementById('logo').src = title;
 const speechToTextPonyfillFactory = createCognitiveServicesSpeechServicesPonyfillFactory({
    credentials: {
      region: 'westeurope',
-     subscriptionKey: 'c22dd873d78240808b927222ca8c8da2'
+     subscriptionKey: 'insert-your-key'
    }
 });
 
@@ -116,7 +116,7 @@ const speechToTextPonyfillFactory = createCognitiveServicesSpeechServicesPonyfil
 const textToSpeechPonyfillFactory = createCognitiveServicesSpeechServicesPonyfillFactory({
    credentials: {
      region: 'westeurope',
-     subscriptionKey: 'c22dd873d78240808b927222ca8c8da2'
+     subscriptionKey: 'insert-your-key'
    }
 });
 
