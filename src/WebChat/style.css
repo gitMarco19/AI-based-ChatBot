@@ -1,0 +1,78 @@
+html, body {
+		height: 100%;
+    	margin: 0;
+    	padding: 0;
+}
+
+iframe {
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#imgEVA:hover, #closeX:hover{
+	cursor: pointer;
+}
+
+#imgEVA {
+	position: absolute;
+	right: 35px;
+	bottom: 75px;
+	width: 150px;
+}
+	
+#webchat {
+	position: fixed;
+	bottom: 20px;
+	right: 35px;
+	height: 540px;
+	width: 495px;
+}
+
+#chatBox{
+	display: none;
+	position: fixed;
+	bottom: 15px;
+	right: 30px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+	height: 600px;
+	width:500px;
+	background-color: white;
+}
+
+#close {
+	text-align: right;
+}
+
+#close img {
+	position: absolute;
+	left: 190px;
+}
+
+#close line {
+	stroke: grey;
+	stroke-width:2;
+}
+
+#closeX {
+	transition-duration: 0.25s;
+}
+
+#closeX:hover {
+	transform: rotate(180deg);
+	background: #e2dfdfba;
+	border-radius: 5px;
+}
+
+.webchat__stackedLayout__avatar {
+	width: 100px;
+}
+
+.webchat__defaultAvatar .css-1aivo0e .css-1rau6l2{
+	visibility: hidden;
+}
+
+.webchat__imageAvatar {
+	height: 150px;
+}
