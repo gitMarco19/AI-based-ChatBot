@@ -1,6 +1,8 @@
 # Integrazione della piattaforma EVA per AI-based chatbots con il Microsoft Bot Framework e Web Chat
 
-Questo progetto è sviluppato per il corso di ***Software Engineering*** dell'[Università di Genova](https://github.com/UniGe) in collaborazione con l'azienda [App2Check srl](https://www.app2check.com/it/) durante l'a.a. 2019/2020.
+*Autori: Marco Scanu e Elisa Zilich*
+
+Questo progetto è sviluppato per il corso di ***Software Engineering*** dell'[*Università di Genova*](https://github.com/UniGe) in collaborazione con l'azienda [*App2Check srl*](https://www.app2check.com/it/) durante l'a.a. 2019/2020.
 
 <p align="center">
 	<img width = "300px" src = "./docs/references/immagini/logoApp2Check.png"/>
@@ -17,13 +19,13 @@ In questo progetto si vuole implementare un chatbot con funzionalità equivalent
 </p>
 
 ## Obiettivo
-L'obiettivo del progetto, è quello di progettare e implementare un modulo di integrazione software utilizzando il componente open source [Microsoft Bot Framework SDK](https://github.com/microsoft/botframework-sdk), che consente di gestire la logica dei bot nel back-end, e la piattaforma EVA.<br>
-Successivamente si dovrà integrare la componente open source [Microsoft Bot Framework Web Chat](https://github.com/microsoft/BotFramework-WebChat) che permette di visualizzare e gestire l'interfaccia utente del bot nel front-end.
+L'obiettivo del progetto, è quello di progettare e implementare un modulo di integrazione software utilizzando il componente open source [*Microsoft Bot Framework SDK*](https://github.com/microsoft/botframework-sdk), che consente di gestire la logica dei bot nel back-end, e la piattaforma EVA.<br>
+Successivamente si dovrà integrare la componente open source [*Microsoft Bot Framework Web Chat*](https://github.com/microsoft/BotFramework-WebChat) che permette di visualizzare e gestire l'interfaccia utente del bot nel front-end.
 
 ## User Manual
 ### Istruzioni d'uso
-1. Scaricare la cartella ***WebChat*** contenuta nella cartella *src*;
-2. Fare doppio click sul file "***homePage.html***" per avviare l'homepage, contenente il bot, sul browser;
+1. Scaricare la cartella ***WebChat*** contenuta nella cartella *src*.
+2. SUl browser, in localhost, avviare il file "***homePage.html***".
 
 All'avvio della pagina, sarà presente l'immagine del bot in basso a destra.
 
